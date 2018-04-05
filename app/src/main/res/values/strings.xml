@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Manipal Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_createaccount">createaccount</string>
+    <string name="title_activity_account">account</string>
+    <string name="title_activity_issuebooksdisp">issuebooksdisp</string>
+    <string name="title_activity_addbook">addbook</string>
+    <string name="title_activity_listbooks">listbooks</string>
+    <string name="title_activity_librarianview">librarianview</string>
+    <string name="title_activity_showstatus">showstatus</string>
+    <string name="title_activity_listallbooks">listallbooks</string>
+    <string name="title_activity_showlogs">showlogs</string>
+</resources>

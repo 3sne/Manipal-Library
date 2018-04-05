@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/aptk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mahe.manipallibrary.librarianview"
+    tools:showIn="@layout/activity_librarianview">
+
+    <Button
+        android:id="@+id/status"
+        android:layout_width="401dp"
+        android:layout_height="75dp"
+        android:onClick="status"
+        android:text="status"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bookadd"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/status"
+        android:onClick="bookadd"
+        android:text="add book"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="404dp"
+        android:layout_height="80dp"
+        android:onClick="list"
+        android:text="books"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="227dp"
+        android:layout_below="@+id/bookadd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/logs"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/list"
+        android:onClick="logs"
+        android:text="logs" />
+</RelativeLayout>

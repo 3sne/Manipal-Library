@@ -1,1 +1,1 @@
-# Manipal-Libraru
+# Manipal-Library

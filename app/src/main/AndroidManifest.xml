@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahe.manipallibrary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".createaccount"
+            android:label="@string/title_activity_createaccount"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".account"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".issuebooksdisp"
+            android:label="@string/title_activity_issuebooksdisp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addbook"
+            android:label="@string/title_activity_addbook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".listbooks"
+            android:label="@string/title_activity_listbooks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".librarianview"
+            android:label="@string/title_activity_librarianview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showstatus"
+            android:label="@string/title_activity_showstatus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".listallbooks"
+            android:label="@string/title_activity_listallbooks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showlogs"
+            android:label="@string/title_activity_showlogs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
